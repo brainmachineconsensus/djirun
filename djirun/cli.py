@@ -1,5 +1,5 @@
 import click
-from .core import Djirun
+from core import Djirun
 
 @click.command()
 @click.argument('project_name')
